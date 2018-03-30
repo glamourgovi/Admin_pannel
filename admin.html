@@ -1,0 +1,818 @@
+<html>
+    <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/adminstyle.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+  </head>
+    
+    
+    
+    
+    
+    <body onload="checkCookie()">
+        
+        
+        
+    <input type="hidden" name="t" value="n">
+    <input type="hidden" name="pi" value="y">
+    <input type="hidden" name="pu" value="y">
+    <input type="hidden" name="pd" value="y">
+    <input type="hidden" name="gi" value="y">
+    <input type="hidden" name="gd" value="y">
+    <input type="hidden" name="ei" value="y">
+    <input type="hidden" name="ed" value="y">
+    <input type="hidden" name="ti" value="y">
+    <input type="hidden" name="tu" value="n">
+    <input type="hidden" name="td" value="y">
+        
+    <div id="loader"><img src="image/govi.jpg"></div>    
+        
+        <div class="navbar">
+            <div class="row">
+            <div class="col-md-2"><h3>Robogenesis</h3></div>
+            <div class="col-md-8" id="nav2">
+                <ul>
+                    <li><a href="">Add Admin</a></li>
+                    <li><a href="">Check Admin</a></li>
+                    <li><a href="">Edit Deatils</a></li>
+                    <li><a href="">Set Privilisation</a></li>
+                    <li><a href="">Change password</a></li>
+                </ul>    
+            </div>
+            <div class="col-md-2" id="user">
+                <ul>
+                    <li id="proimg"><img src="image/govi.jpg" id="img"></li>
+                    <li><b>Govinda Das</b><br>
+                        <a href="" id="logout"><i>Logout</i></a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="dash">
+            <div class="row">
+            <div class="menu col-sm-2">
+                <ul>
+                    <li id="project1" class="side" onclick="setColorCookie('project')">Project</li>
+                    <li id="team1" class="side" onclick="setColorCookie('team')">Our Team</li>
+                    <li id="gallery1" class="side" onclick="setColorCookie('gallery');">Gallery</li>
+                    <li id="event1" class="side" onclick="setColorCookie('event')">Event</li>
+                    <li id="testimonial1" class="side" onclick="setColorCookie('testimonial')">Testimonial</li>
+                </ul>    
+            </div>
+                
+                
+                
+                
+                
+                
+                
+ <!-- Project Dashboard...........-->      
+                
+                
+                
+            <div class="content col-sm-10">
+                <div id="project" class="project container-fluid">
+                    <div class="row dis">
+                    
+                        
+                        
+                        
+<!-- Show project Details in table-->
+                        
+                        
+                    <div class="col-md-6">   
+                    <table border="1px">
+                        <tr>
+                            <th>ProjectName</th>
+                            <th>Catagory</th>
+                        </tr>
+                        <tr>
+                            <td>123</td>
+                            <td>asd</td>
+                        </tr>
+                        <tr>
+                            <td>bgdb</td>
+                            <td>yfggbvchghgvhv jhvhjvhgcgfchgchgchj</td>
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                        </tr>
+                    </table>
+                    </div>
+                        
+                        
+                        
+                    <div class="col-md-3" id="pimg">
+                        <center>
+                            <h3>ImageUpload</h3>
+                        </center>
+                                <table id="imgup">
+                                    <form name="">
+                                    <tr>
+                                        <td id="imgname">
+                                        <select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select>
+                                        </td>
+                                        <td id="imgsearch"><input type="submit" value="search" ></td>
+                                    </tr>
+                                    </form>
+                                     <form action="" method="post" name="">
+                                    <tr>
+                                        <td id="imgfile"><input type="file" name=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="imgupload"><input type="submit" value="Upload"></td>
+                                    </tr>
+                                    </form>
+                                </table>
+                        </div>    
+                        
+<!--Insert and Delete Project Type-->
+                        
+                        
+                        
+                    <div class="col-md-3" id="ptype">
+                        <center>
+                            <h3>Project Type</h3>
+                        </center>
+                                <table>
+                                    <form action="" method="post" name="">
+                                    <tr class="clr1">
+                                        <td><input type="text" name="" placeholder="Project Type"></td>
+                                        <td class="teamcont"><input type="submit" value="Insert"></td>
+                                    </tr>
+                                    </form>
+                                    <form action="" method="post" name="">
+                                    <tr class="clr2">
+                                        <td>
+                                        <select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select>
+                                        </td>
+                                        <td><input type="submit" value="Delete"></td>
+                                    </tr>
+                                    </form>
+                                     <form action="" method="post" name="">
+                                    <tr class="clr3">
+                                        <td>
+                                        <select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="clr3">
+                                        <td><input type="text" name="" placeholder="Project Type"></td>
+                                        <td class="teamcont"><input type="submit" value="Update"></td>
+                                    </tr>
+                                    </form>
+                                </table>
+                                
+                    </div>
+                    </div>
+                    <div class="cont container">
+                        <div class="row">
+                            
+                            
+                            
+<!--Insert Project............-->
+                            
+                            
+                            
+                            <div class="col-lg-4" id="pinsert">
+                                <center>
+                                    <h3>Insert Data</h3>
+                                </center>
+                                <table>
+                                    <form action="" method="post" name="pinsert">
+                                    <tr>
+                                        <td>Project Type</td>
+                                        <td><select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Name</td>
+                                        <td><input type="text" name=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="teamcont">About</td>
+                                        <td class="teamcont"><textarea rows="4"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="teamcont"><input type="reset" value="Cancel"></td>
+                                        <td class="teamcont"><input type="submit" value="Insert"></td>
+                                    </tr>
+                                    </form>
+                                </table>
+                            </div>
+                            
+                            
+                            
+<!--Update Project............-->
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="col-lg-4" id="pupdate">
+                                <center>
+                                    <h3>Update Data</h3>
+                                </center>
+                                <table>
+                                    <form action="" method="post" name="pinsert">
+                                    <tr>
+                                        <td>ProjectType</td>
+                                        <td><select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select><br>
+                                            <input type="submit" value="search">
+                                        </td>
+                                    </tr>
+                                    
+                                    </form>
+                                    <form action="" method="post">
+                                    <tr>
+                                        <td>Name</td>
+                                        <td><select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select>
+                                        <br><input type="submit" value="search"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Edit Name</td>
+                                        <td><input type="text" name=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="teamcont">Edit About</td>
+                                        <td class="teamcont"><textarea rows="3"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="teamcont"><input  type="reset" value="Cancel"></td>
+                                        <td class="teamcont"><input type="submit" value="Update"></td>
+                                    </tr>
+                                    </form>
+                                </table>
+                            </div>
+                            
+                            
+                            
+<!--Delete Project..................-->
+                            
+                            
+                            
+                            <div class="col-lg-4" id="pdelete">
+                                <center>
+                                    <h3>Delete Data</h3>
+                                </center>
+                                <table>
+                                    <form action="" method="post" name="pinsert">
+                                    <tr>
+                                        <td>Project Type</td>
+                                        <td><select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Name</td>
+                                        <td><select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="teamcont"><input  type="reset" value="Cancel"></td>
+                                        <td class="teamcont"><input type="submit" value="Delete"></td>
+                                    </tr>
+                                    </form>
+                                </table>
+                            </div>
+                        </div>
+                        
+                    </div>  
+                </div>
+                
+                
+                
+                
+                
+ <!-- Team Dashboard..................-->
+                
+                
+                <div id="team" class="team container-fluid">
+                    <div class="row trow">
+                    
+                        
+                        
+                        
+<!-- Show Team member in table-->
+                        
+                        
+                    <div class="col-md-8">   
+                        <table border="1px">
+                        <tr>
+                            <th>Team Member</th>
+                            <th>Position</th>
+                        </tr>
+                        <tr>
+                            <td>123</td>
+                            <td>asd</td>
+                        </tr>
+                        <tr>
+                            <td>bgdb</td>
+                            <td>yfggbvchghgvhv jhvhjvhgcgfchgchgchj</td>
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                        </tr>
+                    </table>
+                    </div>
+                                
+                    </div>
+                    <div class="row trow2">
+                        
+                        
+<!-- Insert Team Member................-->
+                        
+                        
+                        <div class="col-md-4" id="tinsert">
+                            <table>
+                                <center><h3>Insert Member</h3></center>
+                                <form action="" method="post">
+                                <tr>
+                                    <td>Name</td>
+                                    <td><input type="text" name="" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Position</td>
+                                    <td><input type="text" name="" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td><input type="text" name="" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Contact</td>
+                                    <td><input type="text" name="" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>About</td>
+                                    <td><textarea rows="3"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" value="Insert"></td>
+                                </tr>
+                                </form>
+                            </table>
+                        </div>
+                        
+<!-- Delete Team Member..................-->
+                        
+                        
+                        
+                        
+                        <div class="col-md-4" id="tdelete">
+                            <table>
+                                <center><h3>Delete Member</h3></center>
+                                <form action="" method="post">
+                                <tr>
+                                    <td>Name</td>
+                                    <td><select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" value="Delete"></td>
+                                </tr>
+                                </form>
+                            </table>
+                        </div>
+                        
+                        
+<!-- Update Image........................-->
+                        
+                        
+                        
+                        
+                        <div class="col-md-4" id="tupdate">
+                            <table>
+                                <center><h3>Update Image</h3></center>
+                                <form action="" method="post">
+                                <tr>
+                                    <td>Name</td>
+                                    <td><select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" value="Search"></td>
+                                </tr>
+                                </form>
+                                <form action="" method="post">
+                                <tr>
+                                   <td colspan="2"><input type="file" name=""></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" value="Search"></td>
+                                </tr>
+                                </form>
+                            </table>
+                        </div>
+                        
+        
+                        
+                    </div>
+                    
+                        
+                    </div>  
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+<!-- Gallery Dashboard............-->
+                
+                
+                <div id="gallery" class="gallery container-fluid">
+                    <form action="" method="post">
+                    <div class="row grow">
+                        <div class="col-md-3">
+                            <label>
+                            <input type="radio" name="fb" value="1" />
+                            <img src="image/govi.jpg">
+                            </label>
+                        </div>
+                        <div class="col-md-3">
+                            <label>
+                            <input type="radio" name="fb" value="2" />
+                            <img src="image/govi.jpg">
+                            </label>
+                        </div>
+                        <div class="col-md-3">
+                            <label>
+                            <input type="radio" name="fb" value="3" />
+                            <img src="image/govi.jpg">
+                            </label>
+                        </div>
+                        <div class="col-md-3">
+                            <label>
+                            <input type="radio" name="fb" value="4" />
+                            <img src="image/govi.jpg">
+                            </label>
+                        </div>
+                        <div class="col-md-3">
+                            <label>
+                            <input type="radio" name="fb" value="5" />
+                            <img src="image/govi.jpg">
+                            </label>
+                        </div>
+                        <div class="col-md-3">
+                            <label>
+                            <input type="radio" name="fb" value="5" />
+                            <img src="image/govi.jpg">
+                            </label>
+                        </div>
+                        <div class="col-md-3">
+                            <label>
+                            <input type="radio" name="fb" value="5" />
+                            <img src="image/govi.jpg">
+                            </label>
+                        </div>
+                        <div class="col-md-3">
+                            <label>
+                            <input type="radio" name="fb" value="5" />
+                            <img src="image/govi.jpg">
+                            </label>
+                        </div>
+                        <div class="col-md-3">
+                            <label>
+                            <input type="radio" name="fb" value="5" />
+                            <img src="image/govi.jpg">
+                            </label>
+                        </div>
+                        
+                        
+     <!-- Delete Image...........-->                   
+                        
+                        <div class="del">
+                            <input type="submit" value="Delete">
+                        </div>
+                        
+                    </div>
+                        
+                        
+                        
+                    
+                        
+
+<!-- Insert Image------->
+                        
+                        
+                        
+                        
+                    </form>
+                    <div class="row grow2">
+                        <div class="col-md-6">
+                            <form action="" method="post">
+                            <input type="file" name="">
+                            <br><br>
+                            <input type="submit" value="Insert">
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div> 
+                
+                
+                
+                
+                
+                
+<!-- Event Dashboard.................-->
+                
+                
+                <div id="event" class="event container-fluid">
+                    <div class="row erow">
+                        <div class="col-md-4 einsert">
+                            
+    <!-- Insert Event..........-->
+                            <form action="" method="post">
+                                <table>
+                                    <center><h3>Insert Event</h3></center>
+                                    <tr>
+                                        <td>EventName</td>
+                                        <td><input type="text" name=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Place</td>
+                                        <td><input type="text" name=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="reset" value="Clear"></td>
+                                        <td><input type="submit"name="Insert"></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                        <div class="col-md-4 eimage">
+                                <table>
+                                    
+                                    
+    <!-- Insert Event Image.........-->                        
+                                    
+                                    <center><h3>Insert Event image</h3></center>
+                                    <form action="" method="post">
+                                    <tr>
+                                        <td>EventName</td>
+                                        <td><select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><input type="submit" value="Search"></td>
+                                    </tr>
+                                    </form>
+                                    <form action="" method="post">
+                                    <tr>
+                                        <td colspan="2"><input type="file" name=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><input type="submit"name="Insert"></td>
+                                    </tr>
+                                    </form>
+                                </table>
+                            
+                        </div>
+                        <div class="col-md-4 edelete">
+                                <table>
+                                    
+                                    
+    <!-- Delete Event .........-->                        
+                                    
+                                    <center><h3>Delete Event</h3></center>
+                                    <form action="" method="post">
+                                    <tr>
+                                        <td>EventName</td>
+                                        <td><select>
+                                            <option>RFID</option>
+                                            <option>YOYO</option>
+                                            </select>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><input type="submit" value="Delete"></td>
+                                    </tr>
+                                    </form>
+                                </table>
+                            
+                        </div>
+                    </div>
+                </div> 
+                
+                
+                
+                
+                
+<!-- Testimonial Dashboard...........-->
+                
+                
+                <div id="testimonial" class="testimonial container-fluid">
+                    <form action="" name="">
+                    <div class="row trow" id="trow">   
+                    <table border="1px">
+                        <center><h4>User Data</h4></center>
+                        <tr>
+                            <th>Content</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Select</th>
+                        </tr>
+                        <tr>
+                            <td>123</td>
+                            <td>asd</td>
+                            <td>123</td>
+                            <td><input type="checkbox" name="vehicle" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>bgdb</td>
+                            <td>yfggbvchghgvhv jhvhjvhgcgfchgchgchj</td>
+                            <td>bgdb</td>
+                            <td><input type="checkbox" name="vehicle" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                            <td>bgdb</td>
+                            <td><input type="checkbox" name="vehicle" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                            <td>bgdb</td>
+                            <td><input type="checkbox" name="vehicle" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                            <td>bgdb</td>
+                            <td><input type="checkbox" name="vehicle" value="Bike"></td>
+                        </tr>
+                    </table>
+                    </div>
+                    <div class="trow2" id="trow2">
+                        <table>
+                            <tr>
+                                <td></td>
+                                <td><input type=submit value=Import></td>
+                            </tr>
+                        </table>
+                    </div>
+                    </form>
+                    <div class="row trow">   
+                    <table border="1px">
+                        <center><h4>AdminData</h4></center>
+                        <tr>
+                            <th>Content</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                        </tr>
+                        <tr>
+                            <td>123</td>
+                            <td>asd</td>
+                            <td>123</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>bgdb</td>
+                            <td>yfggbvchghgvhv jhvhjvhgcgfchgchgchj</td>
+                            <td>bgdb</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                            <td>bgdb</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                            <td>bgdb</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>ghhj</td>
+                            <td>mgmjg</td>
+                            <td>bgdb</td>
+                            
+                        </tr>
+                    </table>
+                    </div>
+                </div>
+                
+                
+            </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="profileimg" id="profile">
+            <form action="" method="post">
+                <table>
+                    <tr>
+                        <td colspan="2"><input type="file" name=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset" value="Cancel" id="imgcncl"></td>
+                        <td><input type="submit" value="Update"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script type="application/javascript" src="js/adminaction.js"></script>
+        <script>
+           var gg;
+            
+         window.onload = function ()
+    {
+             
+             
+             var ld=document.getElementById("loader").style.display= "none";
+             
+             
+             
+            var nameValueArray=document.cookie.split("=");
+            gg = nameValueArray[1];
+             document.getElementById(gg+"1").classList.add("active");
+             document.getElementById(gg).classList.add("active2");
+    }
+
+    function setColorCookie(v)
+    {
+        
+            document.cookie = "color=" +v;
+
+    }
+
+        </script>
+    </body>
+</html>
